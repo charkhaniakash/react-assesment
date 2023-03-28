@@ -86,16 +86,18 @@ const AddItems = () => {
               ...formData, videoUrl: e.target.value
             })}
           />
-          <Link to="/entertain">
+          
             <Button
               type="submit"
               fullWidth
               variant="contained"
               onClick={handleSubmit}
               sx={{ mt: 3, mb: 2 }}>
+              <Link to="/entertain">
               Add Items
+              </Link>
             </Button>
-          </Link>
+          
         </Box>
       </Box>
 
